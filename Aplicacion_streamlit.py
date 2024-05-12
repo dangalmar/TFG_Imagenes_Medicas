@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 import tensorflow as tf
 
-model = tf.keras.models.load_model('./vgg16_trained_with_data_augmentation_and_adam.h5')
+model = tf.keras.models.load_model('./DenseNet-201_trained_with_data_augmentation_and_adam.h5')
 
 def preprocess_image(image):
     img = np.array(image) / 255.0  # Normalizar los valores de píxeles
