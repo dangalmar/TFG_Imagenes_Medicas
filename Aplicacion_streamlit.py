@@ -11,7 +11,7 @@ def preprocess_image(image):
     return img
 
 # Configurar la interfaz de la aplicación con estilos mejorados
-st.title('Clasificador de Imágenes')
+st.title('Clasificador de Cáncer de Piel')
 st.markdown("---")
 
 # Permitir al usuario cargar una imagen con un botón y estilos mejorados
